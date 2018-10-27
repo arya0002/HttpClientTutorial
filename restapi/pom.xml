@@ -43,5 +43,12 @@
 			<scope>compile</scope>
 		</dependency>
 		
+		<!-- it is used for converting the java object to the JSON -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.6.3</version>
+		</dependency>
+		
   </dependencies>
 </project>
